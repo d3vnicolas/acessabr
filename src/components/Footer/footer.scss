@@ -1,0 +1,55 @@
+@import '../../styles/responsive';
+
+.footer{
+    &__container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    &__warning{
+        background-color: var(--warningColor);
+        padding: 4rem 0;
+
+        p{
+            font-size: 1.5rem;
+        }
+    }
+
+    &__bottom{
+        background-color: var(--green);
+        color: var(--white);
+        font-size: 1.8rem;
+        padding: 4rem 0;
+
+        p{
+            width: 95%;
+        }
+    }
+
+    
+    small{
+        font-weight: 400;
+        display: block;
+        width: 100%;
+
+        a{
+            color: var(--mediumBlue);
+        }
+    }
+    
+    .button{
+        background-color: var(--squareArrow);
+        border-radius: .5rem;
+        box-shadow: 2px 2px 8px -2px rgba($color: #000000, $alpha: .7);
+        padding: 1rem;
+        align-self: flex-end;
+    }
+
+    @media (max-width: $mobileSmall) {
+        p{
+            font-size: 1.5rem !important;
+        }
+    }
+    
+}

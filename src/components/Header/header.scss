@@ -1,0 +1,62 @@
+@import '../../styles/responsive';
+
+.header{
+    &__container{
+        width: 100%;
+        margin: 4rem 0; //1 rem = 10px
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        
+    }
+
+    &__logo{
+        display: flex;
+        align-items: flex-end;
+
+        &--state{
+            
+
+            img{
+                margin-right: 12px;
+            }
+        }
+
+        
+
+        
+    }
+
+    &__city{
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+    }
+    &__span{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        margin-right: 1.2rem;
+        
+    }
+
+    @media (max-width:$mobileLarge) {
+        
+        &__logo{
+            flex-wrap: wrap;
+
+            &--ebac{
+                width: 100px;
+                margin-left: 2rem;
+            }
+        }
+
+
+        &--state{
+            margin-top: 1rem;
+        }
+
+        &__span{
+            margin-bottom: 1rem;
+        }
+    }
+}
