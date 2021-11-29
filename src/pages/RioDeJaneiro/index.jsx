@@ -20,7 +20,7 @@ const PLACES = [
 
 ];
 
-const RioDeJaneiro = props => {
+const RioDeJaneiro = () => {
     const {city, state} = useParams
     const [selectedPill, setSelectedPill] = useState('');
 

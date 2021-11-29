@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import './style.scss';
 import imgageDestack from '../../images/homeDestack.png';
 import Pills from '../../components/Pills';
+import { useParams } from 'react-router';
+import { LocationContext } from '../../contexts/LocationContext';
 
 const PLACES = [
     'Praias',
@@ -17,15 +19,23 @@ const PLACES = [
 
 ];
 
-const SaoPaulo = props => {
+const SaoPaulo = () => {
+    const {city, state} = useParams
     const [selectedPill, setSelectedPill] = useState('');
+
+    const {setCity, setState} = useContext(LocationContext);
+
+    useEffect(() => {
+        setCity(city)
+        setState(state)
+    }, [city, state])
     return(
         <main id="main-content" className="home__container">
             <div className="home__col">
                 <div className="home__img home__img--destack hide-desktop">
                     <img src={imgageDestack} alt="Imagem representando a acessibilidade através da cadeira de rodas" />
                 </div>
-                <h1 className="home__title">{props.city} para todos</h1>
+                <h1 className="home__title">{city} para todos</h1>
                 <p className="home__text">
                     Nossa missão é facilitar o encontro entre lugares inclusivos 
                     e pessoas que buscam alternativas culturais para sair de casa, 

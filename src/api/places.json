@@ -1,0 +1,109 @@
+{
+    "places":[
+        {
+            "id": 1,
+            "name": "Museu da Língua Portuguesa",
+            "image": "/places/museu-portuguesa.png",
+            "description": "lorem ipsum dolor sit amet consectetur adisciping elit.",
+            "location": {
+                "lat": "123456",
+                "long": "654321"
+            },
+            "facilities": 
+                [
+                    {"item": 1, "status": true},
+                    {"item": 2, "status": true},
+                    {"item": 3, "status": true},
+                    {"item": 4, "status": true},
+                    {"item": 5, "status": true},
+                    {"item": 6, "status": true},
+                    {"item": 7, "status": true},
+                    {"item": 8, "status": true},
+                    {"item": 9, "status": true},
+                    {"item": 10, "status": true}
+
+                ]
+            
+        },
+        {
+            "id": 2,
+            "name": "Mercado Municipal",
+            "image": "/places/marcado-municipal.png",
+            "description": "lorem ipsum dolor sit amet consectetur adisciping elit.",
+            "facilities": 
+                [
+                    {"item": 1, "status": true},
+                    {"item": 2, "status": true},
+                    {"item": 3, "status": true},
+                    {"item": 4, "status": true},
+                    {"item": 5, "status": true},
+                    {"item": 6, "status": true},
+                    {"item": 7, "status": true},
+                    {"item": 8, "status": true},
+                    {"item": 9, "status": true},
+                    {"item": 10, "status": true}
+
+                ]
+        },
+        {
+            "id": 3,
+            "name": "Auditório Ibirapuera",
+            "image": "/places/auditorio-ibirapuera.png",
+            "description": "lorem ipsum dolor sit amet consectetur adisciping elit.",
+            "facilities": 
+                [
+                    {"item": 1, "status": true},
+                    {"item": 2, "status": true},
+                    {"item": 3, "status": true},
+                    {"item": 4, "status": true},
+                    {"item": 5, "status": true},
+                    {"item": 6, "status": true},
+                    {"item": 7, "status": true},
+                    {"item": 8, "status": true},
+                    {"item": 9, "status": true},
+                    {"item": 10, "status": true}
+
+                ]
+        },
+        {
+            "id": 4,
+            "name": "Museu de Artes de Sãa Paulo",
+            "image": "/places/masp.png",
+            "description": "lorem ipsum dolor sit amet consectetur adisciping elit.",
+            "facilities": 
+                [
+                    {"item": 1, "status": true},
+                    {"item": 2, "status": true},
+                    {"item": 3, "status": true},
+                    {"item": 4, "status": true},
+                    {"item": 5, "status": true},
+                    {"item": 6, "status": true},
+                    {"item": 7, "status": true},
+                    {"item": 8, "status": true},
+                    {"item": 9, "status": true},
+                    {"item": 10, "status": true}
+
+                ]
+        },
+        {
+            "id": 5,
+            "name": "Parque Independência",
+            "image": "/places/museu-portuguesa.png",
+            "description": "lorem ipsum dolor sit amet consectetur adisciping elit.",
+            "facilities": 
+                [
+                    {"item": 1, "status": true},
+                    {"item": 2, "status": true},
+                    {"item": 3, "status": true},
+                    {"item": 4, "status": true},
+                    {"item": 5, "status": true},
+                    {"item": 6, "status": true},
+                    {"item": 7, "status": true},
+                    {"item": 8, "status": true},
+                    {"item": 9, "status": true},
+                    {"item": 10, "status": true}
+
+                ]
+        }
+    ]
+}
