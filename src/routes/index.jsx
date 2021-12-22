@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes as Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home';
-import SaoPaulo from '../pages/SaoPaulo';
 import { LocationContext } from '../contexts/LocationContext';
 import { useState } from 'react';
 import Header from '../components/Header';
