@@ -9,12 +9,12 @@ const PLACES = [
     'Praias',
     'Restaurantes',
     'Estádio',
-    'Arcos',
-    'Catedral - São Sebastião',
+    'Masp',
+    'Av Paulista',
     'Aquário',
-    'Cristo Redentor',
-    'Sambôdromo',
-    'Pão de Açúcar',
+    'Teatros',
+    //'Escadaria',
+    'Japão - Liberdade',
     'Hotéis'
 
 ];
